@@ -1,0 +1,269 @@
+.main_first--section {
+    content: "";
+    background-image: url("../img/first_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .main_first--container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main_first--title {
+    max-width: 696px;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 200px;
+  }
+  
+  .main_first--btn {
+    margin-top: 30px;
+    width: 216px;
+    height: 50px;
+    margin-bottom: 200px;
+    border: 0;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #2196f3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px #00000026;
+  }
+  
+  .main_second--section {
+    margin-top: 94px;
+  }
+  
+  .main_second--container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main_second--title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+  
+  .main_second--text {
+    font-family: Roboto;
+    max-width: 270px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  
+  .main_second--card--box {
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+  }
+  
+  .main_third--section {
+    margin-top: 94px;
+    margin-bottom: 94px;
+  }
+  
+  .main_third--container {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  
+  .main_third--title {
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+  .main_third--images {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main_fourth--section {
+    margin-bottom: 94px;
+  }
+  
+  .main_fourth--medias {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+  }
+  
+  .main_fourth--medias svg:hover path {
+    transition: 0.5s;
+    cursor: pointer;
+    fill: #2196f3;
+  }
+  
+  .main_fourth--medias svg:hover g path {
+    transition: 0.5s;
+    cursor: pointer;
+    fill: white;
+  }
+  
+  .main_fourth--card--text {
+    font-family: Roboto;
+    max-width: 270px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+  }
+  
+  .main_fourth--container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  
+  .main_forth--card--title {
+    font-family: Roboto;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+  
+  .main_fourth--title {
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+  .main_fourth--cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main_fourth--card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 368px;
+  }
+  
+  #card_box-first,
+  #card_box-second,
+  #card_box-third,
+  #card_box-fourth {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #card_box-first:before {
+    content: "";
+    background-image: url("../img/antenna 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+  
+  #card_box-second:before {
+    content: "";
+    background-image: url("../img/clock 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+  
+  #card_box-third:before {
+    content: "";
+    background-image: url("../img/diagram 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+  
+  #card_box-fourth:before {
+    content: "";
+    background-image: url("../img/astronaut 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+  
+  .main_fifth--title {
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+  }
+  
+  .main_fifth--clients {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 94px;
+    transition: transform .5s ease-in-out;
+  }
+  
+  .main_fifth--clients svg:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+  }
+  
+  .main_fifth--clients svg:hover rect {
+    transition: 0.5s;
+    stroke: #2196f3;
+  }
+  
+  .main_fifth--clients svg:hover path {
+    transition: 0.5s;
+    fill: #2196f3;
+  }
